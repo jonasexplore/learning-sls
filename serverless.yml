@@ -9,6 +9,9 @@ provider:
   stage: dev
   region: us-east-1
 
+plugins:
+  - serverless-offline
+
 functions:
   listarPacientes:
     handler: handler.listarPacientes
